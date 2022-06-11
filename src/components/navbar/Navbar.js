@@ -3,6 +3,7 @@ import closeIcon from "../../images/icon-close.svg";
 import logo from "../../images/logo.svg";
 import "./Navbar.css";
 
+
 import { useState } from "react";
 
 export default function Navbar() {
