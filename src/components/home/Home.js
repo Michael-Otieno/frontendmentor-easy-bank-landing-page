@@ -6,6 +6,7 @@ import imageCurrency from "../../images/image-currency.jpg";
 import imageRestaurant from "../../images/image-restaurant.jpg";
 import imagePlane from "../../images/image-plane.jpg";
 import imageConfetti from "../../images/image-confetti.jpg";
+import iconApi from "../../images/icon-api.svg";
 
 import "./Home.css";
 
@@ -66,6 +67,17 @@ export default function Home() {
             <h3>Fast Onboarding</h3>
             <p>
               We don't do branches. Open your account in minutes online and start taking control of your finances right away 
+            </p>
+          </div>
+
+          <div className="open-api">
+            <img
+            src={iconApi}
+            alt="icon online"
+            />
+            <h3>Open Api</h3>
+            <p>
+              Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.
             </p>
           </div>
         </div>
