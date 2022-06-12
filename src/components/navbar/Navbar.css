@@ -58,13 +58,13 @@
   }
   .nav-menu{
     padding-inline: 4rem;
+    
   }
-
   .expand-menu{
     display: block;
   }
   .logo{
-    margin-right: 10rem;
+    margin-right: 12rem;
   }
   .nav-links {
     position: relative;

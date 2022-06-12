@@ -14,7 +14,7 @@ export default function Navbar() {
   }
   return (
     <nav className="nav-menu">
-      <a className="logo">
+      <a href="/" className="logo">
         <img src={logo} alt="logo" />
       </a>
       <button className="hamburger" onClick={toggleNav}>
@@ -26,19 +26,19 @@ export default function Navbar() {
       <div className={navExpanded ? "nav-links " : "nav-links expand-menu"}>
         <ul className="nav-list">
           <li>
-            <a href="/home">Home</a>
+            <a href="home.com">Home</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="about.com">About</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="contact.com">Contact</a>
           </li>
           <li>
-            <a href="/contact">Blog</a>
+            <a href="blog.com">Blog</a>
           </li>
           <li>
-            <a href="/contact">Careers</a>
+            <a href="contact.com">Careers</a>
           </li>
         </ul>
         <button 
