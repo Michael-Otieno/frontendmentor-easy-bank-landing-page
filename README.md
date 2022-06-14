@@ -12,8 +12,9 @@ Users should be able to:
 
 ### Screenshot
 
-![<img src="./active-states.jpg" alt="image" width="400px" height="300px"](./desktop-preview.jpg)
-<!-- ![<img src="./mobile-navigation.jpg" alt="image" width="500px" height="400px"](./mobile-design-detail-dark.jpg) -->
+[<img src="/active.jpg" alt="image" width="500px" height="500px">](https://frontendmentor-easy-bank-landing-page.vercel.app/)
+[<img src="/mobile.jpg" alt="image" width="300px" height="500px">](https://frontendmentor-easy-bank-landing-page.vercel.app/)
+
 
 ### Links
 
