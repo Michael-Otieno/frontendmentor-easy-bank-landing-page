@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend mentor solution url](https://codesandbox.io/s/todo-list-hooks-ebfgw?from-embed=&file=/src/ToDoList.js)
+- Live Site URL: [Live site url](https://frontendmentor-easy-bank-landing-page.vercel.app/)
 
 ### Built with
 
