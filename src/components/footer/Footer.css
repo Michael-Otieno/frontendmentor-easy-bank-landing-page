@@ -3,9 +3,10 @@
   width: 100%;
   padding: 2rem 0;
   text-align: center;
+  display: block;
 }
 .footer-logo{
-  height: 20px;
+  height: 40px;
   margin-block: 1.2rem;
 }
 .footer-icons img{
@@ -56,7 +57,7 @@
   color: hsl(233, 8%, 62%);
 }
 
-@media only screen and (min-width:100px){
+@media only screen and (min-width:1000px){
   .footer{
     display: flex;
     justify-content: space-evenly;
