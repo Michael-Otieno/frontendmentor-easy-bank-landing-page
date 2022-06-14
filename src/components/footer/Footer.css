@@ -11,16 +11,25 @@
 .footer-icons img{
   margin-left: 1rem;
   width: 1.6rem;
+  cursor: pointer;
 
 }
-.footer-about li{
+.footer-icons img:hover{
+  color: hsl(136, 65%, 51%);
+
+}
+.footer li{
   list-style: none;
   line-height: 2;
   font-size: 1.125rem;
   font-weight: 400;
   color: white;
   margin: 0;
+  cursor: pointer;
 
+}
+.footer li:hover{
+  color: hsl(136, 65%, 51%);
 }
 .footer-careers{
   margin: 0;
@@ -40,8 +49,21 @@
     border-radius: 2rem;
     font-weight: 700;
     padding: 1rem 2rem;
+    cursor: pointer;
 }
 .footer-copyrights p{
   font-size: 1.2rem;
   color: hsl(233, 8%, 62%);
+}
+
+@media only screen and (min-width:100px){
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 8rem;
+  }
+  .footer-careers{
+    margin-right: 6rem;
+  }
 }

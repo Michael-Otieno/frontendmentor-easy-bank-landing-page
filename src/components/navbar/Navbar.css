@@ -48,6 +48,10 @@
   font-weight: 400;
 }
 
+.nav-list a:hover{
+  border-bottom: 2px solid #31CD74;
+  padding-bottom: 1.6rem;
+}
 .nav-request-btn{
   display: none;
 }
@@ -94,6 +98,7 @@
     border-radius: 2rem;
     font-weight: 700;
     padding: .5rem .9rem;
+    cursor: pointer;
   }
   
 }

@@ -2,7 +2,6 @@
   height: 42.688rem;
   width: 100%;
   position: relative;
-  /* background-color: rebeccapurple; */
   
 }
 .home-img{
@@ -23,22 +22,28 @@
   height: 30.688rem;
   position: absolute;
   top: -8.8rem;
-  /* bottom: 3rem; */
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
 
 }
+.banking-next{
+  padding: 0rem 0rem;
+  margin-left: 0rem;
+  overflow: hidden;
+}
+
 .banking{
   text-align: center;
   margin-top: 2rem;
   width: 100%;
-  /* height: 300px; */
+  overflow: hidden;
+
 }
 .banking h1{
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   color: hsl(233, 26%, 24%);
   padding-inline: .5rem;
   margin: 0;
@@ -60,6 +65,7 @@
   border-radius: 2rem;
   font-weight: 700;
   padding: 1rem 2rem;
+  cursor: pointer;
 }
 .why{
   background-color: hsl(220, 16%, 96%);
@@ -240,6 +246,10 @@
   color: hsl(233, 8%, 62%);
   font-weight: 300;
 }
+h4:hover{
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
+}
 .currency-meta h4{
   color: hsl(233, 26%, 24%);
   font-weight: 400;
@@ -398,31 +408,31 @@
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    height: 35rem;
+    height: 38rem;
     position: relative;
 
 
   }
   .home-img{
     background: url('../../images/bg-intro-desktop.svg');
-    /* overflow: hidden; */
+
     background-repeat: no-repeat;
     background-position: top -15rem left -5rem; 
-    height: 35rem;
+    height: 38rem;
+    position: relative;
   }
   .home-img img{
+    transform: translate(150px, 20%);
     width: 100%;
-    height: 50rem;
-    /* position: absolute; */
-    top: -5rem;
-    left: 0;
-    /* margin-left: 9.5rem; */
-    /* bottom: 3rem; */
-    /* left: 0; */
-    /* right: -10rem; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    height: 56rem;
+    top:-17rem;
   }
+
+
+
+
+
+
   .banking-next{
     padding: 4rem 1rem;
     text-align: left;
@@ -477,7 +487,7 @@
     text-align: left;
     max-width:16.55rem;
   }
-
+ 
   .articles h2{
     text-align: left;
     padding-left: 5rem;
@@ -495,7 +505,10 @@
     width: 100%;
     padding-bottom: 1rem;
   }
-
+  h4:hover{
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+  }
   .currency-meta h3{
     padding-left: 1rem;
   }

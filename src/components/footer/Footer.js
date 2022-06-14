@@ -10,14 +10,17 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="footer">
-      <img className="footer-logo" src={logo} alt="logo" />
-      <div className="footer-icons">
-        <img src={facebook} alt="facebook logo" />
-        <img src={youtube} alt="youtube logo" />
-        <img src={twitter} alt="twitter logo" />
-        <img src={pinterest} alt="pinterest logo" />
-        <img src={instagram} alt="instagram logo" />
+      <div>
+        <img className="footer-logo" src={logo} alt="logo" />
+        <div className="footer-icons">
+          <img src={facebook} alt="facebook logo" />
+          <img src={youtube} alt="youtube logo" />
+          <img src={twitter} alt="twitter logo" />
+          <img src={pinterest} alt="pinterest logo" />
+          <img src={instagram} alt="instagram logo" />
+        </div>
       </div>
+
       <div className="footer-about">
         <ul>
           <li>About Us</li>

@@ -80,6 +80,7 @@ export default function Home() {
         <div className="articles-details">
           <div className="currency">
             <img width="100%" src={imageCurrency} alt="dollar" />
+            
             <div className="currency-meta">
               <h3>By Claire Robinson</h3>
               <h4>Receive money in any currency with no fees</h4>
