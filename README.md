@@ -25,18 +25,17 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 
 ### What I learned
 
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.i-learned-css {
+  background: white;
 }
 ```
 ```js
-const proudOfThisFunc = () => {
+const ReactFine = () => {
   console.log('🎉')
 }
 ```
